@@ -31,11 +31,14 @@ footer .wrap-info section p {
 footer .wrap-info section a.phone {
     line-height: 150%;
     color: #FFF;
+    position: relative;
+    padding-left: 35px;
 }
 
 footer .wrap-info section a.phone:before {
     content: url(../images/phone.svg);
-    margin-right: 10px;
+    position: absolute;
+    left: 0;
 }
 
 footer .wrap-info section a:before {
