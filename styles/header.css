@@ -56,9 +56,14 @@ header img.menu {
         z-index: -9;
     }
 
-    header img.menu {
+    header .menu {
         display: block;
         cursor: pointer;
+        width: 30px;
+        height: 20px;
+        background-image: url(../images/menu.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 
     header img.menu:hover + nav {
