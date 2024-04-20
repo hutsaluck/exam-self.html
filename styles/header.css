@@ -38,6 +38,7 @@ header img.menu {
 @media screen and (max-width: 750px) {
     header {
         justify-content: space-between;
+        user-select: none;
     }
 
     header nav {
@@ -64,7 +65,7 @@ header img.menu {
         background-image: url(../images/menu.svg);
         background-repeat: no-repeat;
         background-size: contain;
-        user-select: none
+        user-select: none;
     }
 
     header .menu:hover + nav {
