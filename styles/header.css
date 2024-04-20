@@ -35,13 +35,8 @@ header img.menu {
     display: none;
 }
 
-body{
-    -webkit-touch-callout:none; /* iOS Safari */
-    -webkit-user-select:none;   /* Chrome/Safari/Opera */
-    -khtml-user-select:none;    /* Konqueror */
-    -moz-user-select:none;      /* Firefox */
-    -ms-user-select:none;       /* Internet Explorer/Edge */
-    user-select:none;           /* Non-prefixed version */
+header nav li:first-child {
+    display: none;
 }
 
 @media screen and (max-width: 750px) {
@@ -74,6 +69,13 @@ body{
         background-repeat: no-repeat;
         background-size: contain;
         user-select: none;
+
+        -webkit-touch-callout:none; /* iOS Safari */
+        -webkit-user-select:none;   /* Chrome/Safari/Opera */
+        -khtml-user-select:none;    /* Konqueror */
+        -moz-user-select:none;      /* Firefox */
+        -ms-user-select:none;       /* Internet Explorer/Edge */
+        user-select:none;           /* Non-prefixed version */
     }
 
     header .menu:hover + nav {
@@ -91,6 +93,7 @@ body{
     }
 
     header nav li:first-child {
+        display: block;
         position: absolute;
         top: 30px;
         right: 30px;
