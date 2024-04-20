@@ -66,7 +66,7 @@ header img.menu {
         background-size: contain;
     }
 
-    header img.menu:hover + nav {
+    header .menu:hover + nav {
         opacity: 1;
         z-index: 9;
     }
