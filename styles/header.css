@@ -35,13 +35,16 @@ header img.menu {
     display: none;
 }
 
+body{
+    user-select: none;
+}
+header {
+    user-select: none;
+}
+
 @media screen and (max-width: 750px) {
-    body{
-        user-select: none;
-    }
     header {
         justify-content: space-between;
-        user-select: none;
     }
 
     header nav {
